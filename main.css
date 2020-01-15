@@ -1,0 +1,146 @@
+/*This is my CSS page for Activity 2*/ 
+
+/*This will effect the body of my page*/
+body
+{
+	background-color:#fff; 
+}
+
+/*This CSS effects the header for my page*/
+header
+{
+	float: left;
+	width: 100%;
+	background: #99ccff; 
+}
+
+/*This will effect my h1*/
+h1
+{
+    text-align:center; 
+    font-variant:small-caps; 
+    text-decoration:underline;
+    font-family:"arial",sans-serif;
+	color: #666666; 
+}	
+
+/*This will effect my h2*/
+h2
+{
+    text-align:center; 	
+	font-family:"arial",sans-serif;
+	color: #666666; 
+}
+/*This will effect my h3*/ 	
+h3
+{
+	text-align: center;
+	font-family: "arial",sans-serif;
+	color: #fff;
+}
+/*This will effect my h3*/
+h4
+{
+	text-align:center; 	
+	font-family:"arial",sans-serif;
+}
+/*This CSS will effect my navgation bar*/ 
+#navbar
+{
+    width:                  158px;
+    position:               fixed;
+    top:                    0px;
+    left:                   0px;
+    bottom:                 0px;
+    padding:                0px;
+    background-color:       #595959;
+    border-right:           4px dashed #000000;
+    overflow:               scroll;  
+}
+
+/*The following rule changes the style of the links in the nav bar */
+.navLinks
+{
+    text-align: center; 	
+	font-family:"arial",sans-serif;
+	color:#ffffff;
+}
+
+/*The following CSS will change the links in my page*/ 
+a
+{
+    font-family:"arial",sans-serif;
+    font-weight:bold; 
+    color:#000000;
+    text-decoration:none;
+}
+
+/*The following CSS will change the way links hover in my page*/ 
+a:hover
+{
+    font-style:italic;
+    font-weight:bold; 
+    color:#6495ED;
+}
+
+/*The following CSS will change the way my home page picture looks in my page*/ 
+.home_page_pic
+{
+	float: left;
+	margin-left: 190px; 
+    border-radius: 20px;
+}	
+
+/*The following CSS will change the way paragraphs look in my page*/ 
+p
+{
+	text-align: center;
+	font-family:"arial",sans-serif;
+	margin-right: 10px; 	
+}
+
+/*The following will change about the website section in the home page */ 
+.about
+{
+	margin-left: 150px; 
+	text-align: center;
+	font-family:"arial",sans-serif;
+}
+
+/*The following rules will effect the table in my classes page*/ 
+#table
+{
+    width:1000px;
+    border-spacing:2px;
+    background-color:#ffffff;
+    margin-left:500px;
+
+}
+
+tr
+{
+    text-align:center;
+    background-color:#666666;
+}
+
+th
+{
+    font-weight:bold;
+}
+
+td
+{
+    font-weight:bold;
+}
+
+.class
+{
+	color: #ffffff;
+}	
+
+/*The following rules will effect the gallery page */
+.gallery
+{
+    margin-left:160px;
+    border:4px solid #ffffff;
+}
